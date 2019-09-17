@@ -19,7 +19,7 @@ wikireader is a command line program that reads articles from wikipedia to the c
 
 ## requirements
 
-nodejs [https://nodejs.org/en/download/]
+nodejs [https://nodejs.org/en/download/] \n
 npm
 
 ## setup
