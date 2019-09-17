@@ -1,0 +1,18 @@
+{
+  "name": "wikireader",
+  "version": "1.0.0",
+  "description": "reads article from wikipedia ",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amponsah Shadrach Yaw",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^3.0.1",
+    "inquirer": "^7.0.0",
+    "request": "^2.88.0"
+  }
+}
