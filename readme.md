@@ -19,12 +19,13 @@ wikireader is a command line program that reads articles from wikipedia to the c
 
 ## requirements
 
-nodejs [https://nodejs.org/en/download/] \n
+nodejs [https://nodejs.org/en/download/] 
+
 npm
 
 ## setup
 
-place the folder [wikireader] on your pc or mac; you can choose any location to place it
+place the folder [wikireader] on your pc or mac; you can choose any location to place it.
 open a terminal or bash and `cd` or `navigate` to the directory where your placed the files and run. 
 
 ```bash
@@ -47,7 +48,7 @@ open a terminal or bash and type
 wikireader <cmd>                (where cmd = [read,random,about,help])
 ```
 
-the cmd arguments are list of commands the wikireader accepts [read,random,about,help]
+the cmd arguments are list of commands the wikireader accepts `[read,random,about,help]`
 
 
 ## read
@@ -63,8 +64,8 @@ the program will ask you to specify your language
 the program will ask you to specify an article to read
 
 once the program fetches the article from wikipedia you can move to the 
-next paragraph of the article with  the letter [n] and you can end the reading
-with the letter [q]
+next paragraph of the article with  the letter `[n]` and you can end the reading
+with the letter `[q]`
 
 ## random
 
@@ -79,8 +80,8 @@ the program will ask you to specify your language
 the program will then fetch a random article from wikipedia
 
 once the program fetches the article from wikipedia you can move to the 
-next paragraph of the article with  the letter [n] and you can end the reading
-with the letter [q]
+next paragraph of the article with  the letter `[n]` and you can end the reading
+with the letter `[q]`
 
 
 ## about
