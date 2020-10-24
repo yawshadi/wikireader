@@ -103,7 +103,9 @@ const readRequest = (Url) => {
             console.log('\n > Press n to read next paragraph \n > q to quit');
 
             // pause the process to read input from keys 
-            process.stdin.setRawMode(true);
+            if(process.stdin.isTTY) {
+                process.stdin.setRawMode(true);
+             }
             process.stdin.resume();
             process.stdin.on('data', function (key) {
 
